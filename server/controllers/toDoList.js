@@ -3,7 +3,7 @@ let home = (req, res)=>{
 }
 
 let completed = (req, res)=>{
-    let tasks = []
+
     let task = {
         title: req.body.title,
         description: req.body.description,
