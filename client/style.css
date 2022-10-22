@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=IBM+Plex+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Inter:wght@200;300;400;500;700&family=Jost&family=Lato&family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;400&family=Noto+Sans:ital,wght@1,300;1,400;1,500&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poiret+One&family=Poppins:ital,wght@0,300;0,500;0,600;1,700&family=Quicksand:wght@400;500&family=Raleway:wght@300&family=Readex+Pro&family=Roboto+Mono&family=Roboto:ital,wght@1,300&family=Smooch&family=Space+Mono&family=Tajawal:wght@300&family=Ubuntu:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width:75%;
+    min-width:600px;
+    height:55%;
+    min-height:650px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.container nav{
+    width:100%;
+    height:7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px;
+    border-bottom: 1px solid #333;
+}
+.container nav .labels{
+    width:25vw;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container nav .labels span{
+    padding:5px;
+    background: #333;
+    color:#fff;
+    border-radius: 5px;
+}
+.container .top-nav{
+    width:100%;
+    height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+.container .top-nav .search-box{
+    margin-right:10px;
+}
+.container .table{
+    width:100%;
+    height:50vh;
+    border-bottom: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+}
+.container .table > div{
+    height:100%;
+    width:25%;
+    border-right: 1px solid #333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .table > div span{
+    border-bottom: 1px solid #333;
+    width:100%;
+    text-align: center;
+}
+
+
+
