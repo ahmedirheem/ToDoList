@@ -14,22 +14,4 @@ connectToDb(err =>{
     }
 })
 
-app.get('/', (req, res)=>{
-
-})
-
-app.get('/completed', (req, res)=>{
-
-    let tasks = []
-    let task = {
-        title: req.body.title,
-        description: req.body.description,
-        date: req.body.date,
-        checked: false
-    }
-})
-
-app.get('/notcompleted', (req, res)=>{
-    
-})
 
