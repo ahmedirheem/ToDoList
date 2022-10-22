@@ -7,8 +7,8 @@ let db;
 
 connectToDb(err =>{
     if(!err){
-        app.listen(8080, ()=>{
-            console.log('server is running in port 8080');
+        app.listen(5000, ()=>{
+            console.log('server is running in port 5000');
         })
         db = getData()
     }

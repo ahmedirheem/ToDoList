@@ -2,18 +2,24 @@ let home = (req, res)=>{
 
 }
 
+let add = (req, res)=>{
+    const {title,description,date,checked}=req.body;
+    let task = {
+        title: title,
+        description: description,
+        date: date,
+        checked:checked
+    }
+
+
+}
+
 let completed = (req, res)=>{
 
-    let task = {
-        title: req.body.title,
-        description: req.body.description,
-        date: req.body.date,
-        checked: false
-    }
 }
 
 let notCompleted = (req, res)=>{
     
 }
 
-module.exports = {home, completed, notCompleted}
+module.exports = {home, completed, notCompleted, add}
